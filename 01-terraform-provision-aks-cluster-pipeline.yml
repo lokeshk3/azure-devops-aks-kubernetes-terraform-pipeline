@@ -52,7 +52,7 @@ stages:
           workingDirectory: '$(System.DefaultWorkingDirectory)/terraform-manifests'
           allowTelemetryCollection: true
 
-- stage: Deploy AKS Closter
+- stage: DeployAKSCloster
   jobs: 
     - deployment: DeployDevAksCluster
       displayName: DeployDevAksCluster
